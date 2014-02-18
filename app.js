@@ -5,7 +5,6 @@ var user    = require( './routes/user' )
 var http    = require( 'http' );
 var path    = require( 'path' );
 var app     = express();
-var engine  = require( 'ejs-locals' );
 
 app.set( 'port', process.env.PORT || 3001 );
 app.engine( 'html', engine );
