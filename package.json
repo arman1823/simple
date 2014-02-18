@@ -1,0 +1,23 @@
+{
+  "name": "Simple",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.4.x",
+    "ejs": "*",
+    "stylus": "*",
+    "mongoose": "3.8.x"
+  },
+  "description": "task",
+  "main": "app.js",
+  "devDependencies": {},
+  "keywords": [
+    "name",
+    "list"
+  ],
+  "author": "Arman Aleksanyan",
+  "license": "ISC"
+}
