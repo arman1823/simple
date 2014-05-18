@@ -36,4 +36,5 @@ app.post('/recursestr', user.recursestr );
 
 http.createServer( app ).listen( app.get( 'port' ), function (){
     console.log( 'Express server listening on port ' + app.get( 'port' ));
+    process.exit(1);
 });
